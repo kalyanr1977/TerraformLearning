@@ -11,3 +11,7 @@ variable "provider_token" {
 provider "fakewebservices" {
   token = var.provider_token
 }
+
+provider "aws" {
+  region = "ap-southeast-1"
+}
