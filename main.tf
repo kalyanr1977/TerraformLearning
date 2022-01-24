@@ -15,10 +15,9 @@
 
 module "s3" {
   source  = "app.terraform.io/SahaanaSoftware/s3/aws"
-  version = "1.0.0"
+  version = "1.2.0"
 
   bucket_name = "test_bucket"
-  aws_region = "ap-southeast-1"
 }
 
 resource "fakewebservices_vpc" "primary_vpc" {
