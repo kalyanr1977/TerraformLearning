@@ -16,7 +16,7 @@
 module "s3" {
   source  = "app.terraform.io/SahaanaSoftware/s3/aws"
   version = "1.0.0"
-  
+
   bucket_name = "test_bucket"
 }
 
